@@ -1,7 +1,15 @@
 package main
 
-import "fmt"
+//1.3
+
+import (
+	"os"
+)
 
 func main() {
-	fmt.Println("hello，世界")
+	counts := make(map[string]int)
+	files := os.Args[1:]
+	if len(files) == 0 {
+
+	}
 }
